@@ -22,6 +22,7 @@ body {
 }
 
 .content.header {
+    justify-content: space-between;
     gap: 198px;
     padding: 17px 120px;
 }
@@ -32,7 +33,6 @@ body {
     padding: 0;
     gap: 20px;
     justify-content: center;
-
 }
 
 .navigation-link {
@@ -71,6 +71,7 @@ body {
 }
 
 .content.main {
+    flex-direction: column;
     margin-top: 70px;
     margin-bottom: 100px;
     padding: 0 120px;
@@ -81,6 +82,10 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+.content section {
+    margin-bottom: 100px;
 }
 
 .incentive {
@@ -103,4 +108,63 @@ body {
 
 .bttn.get-started {
     width: 180px;
+}
+
+section.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.features-header {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.list-of-cards {
+    margin: 0 0 70px 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 20px 0 0 0;
+}
+
+.card {
+    width: 270px;
+    text-align: start;
+}
+
+.card img {
+    margin-bottom: 30px;
+}
+
+.card h4 {
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+    font-size: 22px
+}
+
+.card p {
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.bttn.large {
+    width: 180px;
+}
+
+.bckgrnd-gradient {
+    box-sizing: border-box;
+    z-index: -1;
+    position: absolute;
+    bottom: -75px;
+    width: 200%;
+    height: 400px;
+    background: linear-gradient(179.61deg, rgba(255, 244, 229, 0.0001) 0.33%, rgba(255, 229, 210, 0.629261) 99.67%);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
