@@ -12,7 +12,9 @@ body {
     flex-direction: column;
     align-items: center;
     color: var(--main-color);
+    scrollbar-width: none;
 }
+
 
 .content {
     box-sizing: border-box;
@@ -115,7 +117,12 @@ section.features {
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-bottom: 180px;
+    width: 99vw;
+    padding-bottom: 75px;
+    background-image: url(../assets/img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .features-header {
@@ -155,18 +162,6 @@ section.features {
 
 .bttn.large {
     width: 180px;
-}
-
-.bckgrnd-gradient {
-    box-sizing: border-box;
-    z-index: -1;
-    position: absolute;
-    bottom: -75px;
-    width: 2200px;
-    height: 400px;
-    background: linear-gradient(179.61deg, rgba(255, 244, 229, 0.0001) 0.33%, rgba(255, 229, 210, 0.629261) 99.67%);
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
 }
 
 .info-block {
