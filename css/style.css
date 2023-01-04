@@ -162,9 +162,100 @@ section.features {
     z-index: -1;
     position: absolute;
     bottom: -75px;
-    width: 200%;
+    width: 2200px;
     height: 400px;
     background: linear-gradient(179.61deg, rgba(255, 244, 229, 0.0001) 0.33%, rgba(255, 229, 210, 0.629261) 99.67%);
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+}
+
+.benefits .side-text {
+    width: 525px;
+    margin-right: 113px;
+}
+
+.side-text p {
+    color: var(--secondary-color);
+    line-height: 1.62;
+    margin: 0;
+    font-weight: 500;
+}
+
+.side-text h2,
+h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.side-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.62;
+    font-weight: 500;
+}
+
+.benefit h4 {
+    margin-bottom: 10px;
+    line-height: 1.62;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.benefit {
+    margin-bottom: 30px;
+}
+
+.product-managers img {
+    order: -1;
+}
+
+.product-managers .side-text {
+    width: 505;
+    margin-left: 125px;
+    margin-right: 0;
+}
+
+.manager-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.manager-list img {
+    width: 35px;
+    height: 36px;
+    margin-right: 30px;
+}
+
+.manager-list li {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.marketers .side-text {
+    width: 486px;
+    margin-right: 174px;
+}
+
+.marketers li:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.marketers-list h4 {
+    margin-bottom: 12px;
 }
