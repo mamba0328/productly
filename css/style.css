@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: var(--main-color);
-    scrollbar-width: none;
+    overflow-x: hidden;
 }
 
 
@@ -75,7 +75,6 @@ body {
 .content.main {
     flex-direction: column;
     margin-top: 70px;
-    margin-bottom: 100px;
     padding: 0 120px;
 }
 
@@ -253,4 +252,78 @@ h4 {
 
 .marketers-list h4 {
     margin-bottom: 12px;
+}
+
+hr {
+    background-color: #BCD0E57F;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+/* footer + change to flex:1 */
+
+.content.footer {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+    padding: 0 120px 70px 120px;
+}
+
+.footer .logo-container {
+    width: 200px;
+}
+
+.footer h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.footer-nav h3 {
+    margin-bottom: 30px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.footer-nav a {
+    font-weight: 500;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer-nav a:hover {
+    color: #FF9900;
+}
+
+.quick-sign-up {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.quick-sign-up h3 {
+    width: 280px;
+}
+
+.quick-sign-up input {
+    flex: 1;
+    padding: 15px 0 15px 10px;
+    border: 1px solid #BCD0E5;
+}
+
+.quick-sign-up input::placeholder {
+    color: #BCD0E5;
+    font-weight: 400;
+    line-height: 1.25;
 }
