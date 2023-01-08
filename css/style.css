@@ -79,10 +79,10 @@ body {
 }
 
 .first-screen {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 }
 
 .content section {
@@ -129,6 +129,7 @@ section.features {
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .list-of-cards {
